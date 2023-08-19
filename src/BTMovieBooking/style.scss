@@ -1,0 +1,50 @@
+.Chair {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid orange !important;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+
+  &:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &.booking {
+    background-color: orange;
+    color: white;
+    border: transparent;
+  }
+
+  &.booked {
+    background-color: gray;
+    color: white;
+    border: transparent;
+    pointer-events: none;
+    border: 2px solid gray !important;
+  }
+
+  &.disabled {
+    border: transparent !important;
+    pointer-events: none;
+    background-color: transparent;
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Amatic SC";
+  }
+}
+.cursor-pointer {
+  cursor: pointer; /* Biến con trỏ thành con trỏ tương tác */
+}
+
+.highlight {
+  background-color: #ffcccb; /* Màu nền khi con trỏ đi vào */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu mượt mà */
+}

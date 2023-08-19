@@ -1,0 +1,50 @@
+.background {
+  background-image: url("https://media.vov.vn/sites/default/files/styles/large/public/2023-02/wish_-_teaser_art.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.filter {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dayHang {
+  color: yellow;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Amatic SC";
+}
+
+.screen {
+  background-color: orange;
+  transform: perspective(800px) rotateX(30deg);
+  box-shadow: 0 20px 20px 0px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.result {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.result__bot td {
+  border: 1px solid rgba(0, 0, 0, 0.209);
+  color: rgb(250, 191, 13);
+  font-weight: bold;
+}
+.result__bot {
+  --bs-table-bg: none;
+  --bs-table-border-color: none;
+}
+.thanhToan {
+  color: white !important;
+}
+.top {
+  color: white !important;
+  border-bottom: none !important;
+  border-top-color: black;
+}
